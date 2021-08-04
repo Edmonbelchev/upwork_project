@@ -334,6 +334,7 @@ body{
     }
     .filter-container{
         padding: 0 10px;
+        margin-bottom: 0;
     }
     .results-container h3{
         margin-top: 0;
