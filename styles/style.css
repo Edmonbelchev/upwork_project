@@ -357,6 +357,9 @@ body{
     .result-item .result-description p{
         font-size: 14px;
     }
+    .result-item .links-wrapper .link-category{
+        font-size: .835rem;
+    }
     .header-container{
         padding: 0 10px;
         margin-bottom: 10px;
