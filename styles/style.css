@@ -351,6 +351,12 @@ body{
         padding-top: 0;
         border-top: none;
     }
+    .result-item .result-header h2{
+        font-size: 1rem;
+    }
+    .result-item .result-description p{
+        font-size: 14px;
+    }
     .header-container{
         padding: 0 10px;
         margin-bottom: 10px;
