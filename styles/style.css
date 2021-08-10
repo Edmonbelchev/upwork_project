@@ -63,6 +63,15 @@ body{
     margin-bottom: 30px;
     flex-wrap: wrap;
 }
+.banner-wrapper{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+.banner-wrapper img{
+    object-fit: cover;
+    width: 100%;
+}
 .filter-links{
     display: flex;
     align-items: center;
@@ -76,14 +85,12 @@ body{
 }
 
 .filter-container .nav-link{
-    padding: 5px 10px;
+    padding: 5px 15px;
     margin: 0 5px;
     text-decoration: none;
     color: rgb(51, 50, 50);
 }
-.filter-container .nav-link:first-child{
-    margin-left: 0;
-}
+
 .filter-container .nav-link.active{
     background: #e45735;
     color: #fff;
@@ -334,7 +341,6 @@ body{
     }
     .filter-container{
         padding: 0 10px;
-        margin-bottom: 0;
     }
     .results-container h3{
         margin-top: 0;
@@ -347,18 +353,15 @@ body{
     .results-box .column-1 .result-item:last-child{
         border-bottom: none;
     }
-    .results-box .column-2{
-        padding-top: 0;
-        border-top: none;
-    }
     .result-item .result-header h2{
         font-size: 1rem;
     }
     .result-item .result-description p{
         font-size: 14px;
     }
-    .result-item .links-wrapper .link-category{
-        font-size: .835rem;
+    .results-box .column-2{
+        padding-top: 0;
+        border-top: none;
     }
     .header-container{
         padding: 0 10px;
@@ -368,18 +371,27 @@ body{
         padding: 5px 10px;
         font-size: .8rem;
     }
+    .filter-container{
+        margin-bottom: 10px;
+    }
     .filter-container .nav-link{
         font-size: .8rem;
-    }
-    .filter-container select{
-       font-size: 12px;
-       padding: 5px;
     }
     .footer-wrapper .footer-description{
         width: 100%;
     }
     .footer-wrapper .footer-links{
         width: 100%;
+    }
+    .filter-container .nav-link:first-child{
+        padding-left: 5px;
+        margin-left: 0;
+    }
+    .banner-wrapper{
+        margin-bottom: 10px;
+    }
+    .banner-wrapper img{
+        padding: 0 10px;
     }
   }
 
@@ -397,6 +409,6 @@ body{
     max-width: 100px;
     }
     .footer-wrapper .bottom-footer .footer-nav a{
-        font-size: .755rem;
+        font-size: .8rem;
     }
 }
